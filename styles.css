@@ -32,9 +32,25 @@ body {
   height: 300px;
   background-color: var(--card-background);
   display: flex;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
+.container .card img {
+  border-radius: 0 8px 8px 0;
+}
+
+.container .card h1 {
+  font-family: "Inter", sans-serif;
+}
+
+.container .card h1 span {
+  color: var(--soft-violet);
+}
+
+.container .card p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
