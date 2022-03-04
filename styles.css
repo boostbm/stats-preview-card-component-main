@@ -63,6 +63,13 @@ body {
   color: var(--main-paragraph);
   font-size: 15px;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card p span {
+  color: white;
+  font-size: 20px;
 }
 .attribution {
   font-size: 11px;
