@@ -27,12 +27,22 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container .card {
-  width: 800px;
-  height: 300px;
+  width: 1200px;
+  height: 400px;
   background-color: var(--card-background);
   display: flex;
   border-radius: 8px;
+}
+
+.container .card .card-text {
+  margin: 30px 60px 50px 50px;
+  padding: 20px;
 }
 
 .container .card img {
@@ -41,6 +51,7 @@ body {
 
 .container .card h1 {
   font-family: "Inter", sans-serif;
+  font-size: 40px;
 }
 
 .container .card h1 span {
@@ -49,15 +60,16 @@ body {
 
 .container .card p {
   font-family: "Lexend Deca", sans-serif;
+  color: var(--main-paragraph);
   font-size: 15px;
+  margin-top: 20px;
 }
 .attribution {
   font-size: 11px;
   text-align: center;
   color: white;
+  margin-top: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* font-family: "Lexend Deca", sans-serif; */
