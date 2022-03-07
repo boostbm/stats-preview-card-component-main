@@ -60,11 +60,18 @@ body {
 .container .card p {
   font-family: "Lexend Deca", sans-serif;
   color: var(--main-paragraph);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   margin-top: 20px;
   display: flex;
+}
+
+.container .card .stat-card {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
 
 .container .card .stat-card .num {
@@ -72,10 +79,11 @@ body {
   font-size: 25px;
 }
 
-.container .card .stat-card {
-  display: flex;
-  justify-content: space-between;
+.container .card .stat-card .text {
+  font-size: 14px;
+  margin: 1px;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
