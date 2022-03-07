@@ -65,12 +65,16 @@ body {
   line-height: 30px;
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
 }
 
-.container .card p span {
+.container .card .stat-card .num {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.container .card .stat-card {
+  display: flex;
+  justify-content: space-between;
 }
 .attribution {
   font-size: 11px;
